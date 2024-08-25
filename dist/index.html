@@ -6,6 +6,56 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" >
     <link rel="stylesheet" href="main.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .service-container {
+            padding: 50px;
+        }
+        .service-header {
+            font-size: 5em;
+            margin-bottom: 30px;
+        }
+        .service-items {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .service-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #666;
+        }
+        .service-price {
+            font-size: 1.5em;
+        }
+        .service-book-btn {
+            padding: 10px 20px;
+            background-color: #f9c6f6;
+            color: #333;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            font-size: 1em;
+        }
+        .service-book-btn:hover {
+            background-color: red;
+            color: white;
+        }
+
+        
+
+
+        
+    </style>
 </head>
 <body>
 
@@ -24,10 +74,15 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
-      <h1>USE US</h1>
+      <h1> Placidux </h1>
       <button class="explore-btn">Explore</button>
     </div>
   </section>
+    
+  <div class="service-container">
+    <h1 class="service-header">Services</h1>
+    <hr>
+
 
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto" id="containerWrapper">
@@ -121,6 +176,31 @@
             </div>
           </div>
         </div>
+
+        <div class="service-container">
+          <h1 class="service-header">Services</h1>
+          <hr>
+          <ul class="service-items">
+              <li class="service-row">
+                  <span>Image Editing</span>
+                  <span class="service-price">Free</span>
+                  <button class="service-book-btn"><a href="/imageedit" >Book Now</a></button>
+              </li>
+              <li class="service-row">
+                  <span>Text GenAI</span>
+                  <span class="service-price">Free</span>
+                  <button class="service-book-btn"><a href="/textgen">Book Now</a></button>
+              </li>
+              <li class="service-row">
+                  <span>Car Price Tracking</span>
+                  <span class="service-price">Free</span>
+                  <button class="service-book-btn"><a href="/carprice">Book Now</a></button>
+              </li>
+          </ul>
+      </div>
+
+
+        
       </section>
 </body>
 </html>

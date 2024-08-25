@@ -73,6 +73,71 @@
         </div>
       </section>
 
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #333;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .service-container {
+        padding: 50px;
+    }
+    .service-header {
+        font-size: 3em;
+        margin-bottom: 30px;
+    }
+    .service-items {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .service-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border-bottom: 1px solid #666;
+    }
+    .service-price {
+        font-size: 1.5em;
+    }
+    .service-book-btn {
+        padding: 10px 20px;
+        background-color: #f9c6f6;
+        color: #333;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        font-size: 1em;
+    }
+    .service-book-btn:hover {
+        background-color: red;
+        color: white;
+    }
+</style>
+</head>
+<body>
+<div class="service-container">
+    <h1 class="service-header">Services</h1>
+    <ul class="service-items">
+        <li class="service-row">
+            <span>Image Editing</span>
+            <span class="service-price">$50</span>
+            <button class="service-book-btn">Book Now</button>
+        </li>
+        <li class="service-row">
+            <span>Heart Rate Monitoring</span>
+            <span class="service-price">$30</span>
+            <button class="service-book-btn">Book Now</button>
+        </li>
+        <li class="service-row">
+            <span>Car Price Tracking</span>
+            <span class="service-price">$75</span>
+            <button class="service-book-btn">Book Now</button>
+        </li>
+    </ul>
+</div>
 
 
 </body>

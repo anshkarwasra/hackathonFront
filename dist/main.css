@@ -23,7 +23,7 @@
   .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #e60000;
+    color: purple;
   }
   
   .nav-links {
@@ -43,7 +43,7 @@
   }
   
   .nav-links a:hover {
-    color: #e60000;
+    color: purple;
   }
   
   /* Hero Section */
